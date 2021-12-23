@@ -1,0 +1,17 @@
+#info-text {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 3em 0 4em 0;
+}
+
+.info-text-title {
+  padding-bottom: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.info-text-main {
+  width: 80%;
+  margin: auto;
+}

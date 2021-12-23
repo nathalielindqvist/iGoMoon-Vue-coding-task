@@ -1,0 +1,17 @@
+{
+  "label": "info-text",
+  "css_assets": [],
+  "external_js": [
+    "https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"
+  ],
+  "global": false,
+  "help_text": "",
+  "host_template_types": [
+    "PAGE"
+  ],
+  "js_assets": [],
+  "other_assets": [],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "is_available_for_new_content": false
+}

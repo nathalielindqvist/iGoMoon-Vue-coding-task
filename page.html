@@ -36,7 +36,7 @@
             {% end_dnd_area %}
         </div>
 
-        <div class="hero-form">
+        <div class="hero-form-container">
             <div class="overlay">
                 <div class="hero-form-section-content">
                     <div class="hero-form-section-info">
@@ -53,6 +53,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="info-text-container">
+            {% module "info-text",
+            path="./modules/info-text",
+            label="Info Text"
+            %}
         </div>
     </main>
 </div>
