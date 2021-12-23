@@ -1,0 +1,19 @@
+.hero-title-white {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: left;
+  line-height: 1;
+}
+
+#hero-title-orange {
+  color: #f75c03;
+}
+
+#hero-text {
+  color: #fff;
+}
+
+ul {
+  list-style-image: url('https://f.hubspotusercontent-eu1.net/hubfs/25300201/check-li-image-1.png');
+}
