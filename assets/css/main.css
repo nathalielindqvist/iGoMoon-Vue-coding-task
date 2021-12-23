@@ -36,7 +36,6 @@
 
 
 
-
 /* Header styling */
 
 header {
@@ -112,5 +111,7 @@ header {
 
 
 .footer {
-  margin-top: 30px;
+  padding: 2em 0;
+  background: #404040;
+  color: #fff;
 }
