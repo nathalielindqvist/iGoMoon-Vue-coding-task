@@ -10,9 +10,8 @@
 
 /* Hero section  */
 
-.hero-form {
+.hero-form-container {
   background-image: url("https://f.hubspotusercontent-eu1.net/hubfs/25300201/house-background-hero-section.jpg");
-  height: 900px;
   width: 100%;
 
 }
@@ -26,12 +25,13 @@
   display: flex;
   flex-direction: row;
   width: 80%;
-  padding-left: 6em;
+  padding: 5em 6em;
   margin: auto;
 }
 
 .hero-form-section-info {
   width: 400px;
+  padding-top: 5em;
 }
 
 

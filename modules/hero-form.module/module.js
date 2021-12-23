@@ -1,5 +1,5 @@
 var app = new Vue({
-  el: '#app',
+  el: '#hero-form',
   data: {
     message: 'Hello Vue!'
   }
