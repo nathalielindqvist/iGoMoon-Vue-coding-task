@@ -1,13 +1,14 @@
 <section class="module-outer">
-    <div class="module-inner py-5 text-center">
+    <div class="module-inner text-center">
         <div class="form-container">
 
             <div>
+                <h2 class="form-title">APPLY NOW</h2>
                 {% if module.heading %}
-                <h2 class="heading mb-4">{{ module.heading }}</h2>
+                <p class="form-text">{{ module.heading }}</p>
                 {% endif %}
             </div>
-            {% form "optin_form" form_to_use='{{ module.form.form_id }}', title='Sign up for our newsletter'
+            {% form "optin_form" form_to_use='{{ module.form.form_id }}'
             %}
         </div>
     </div>
