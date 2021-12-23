@@ -35,17 +35,22 @@
             {% end_dnd_section %}
             {% end_dnd_area %}
         </div>
-        <div class="form-optin">
-            {% module "module_form_optin_20201119",
-            path="./modules/form-optin",
-            label="Form Optin"
-            %}
-        </div>
-        <div class="gallery">
-            {% module "gallery",
-            path="./modules/gallery",
-            label="Gallery"
-            %}
+
+        <div class="hero-form">
+            <div class="overlay">
+                <div class="hero-info">
+                    {% module "hero-form",
+                    path="./modules/hero-form",
+                    label="Hero form"
+                    %}
+                </div>
+                <div class="form-optin">
+                    {% module "module_form_optin_20201119",
+                    path="./modules/form-optin",
+                    label="Form Optin"
+                    %}
+                </div>
+            </div>
         </div>
     </main>
 </div>
