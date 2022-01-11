@@ -8,28 +8,6 @@
 }
 
 
-/* Hero section  */
-
-.overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100%;
-}
-
-.hero-form-section-content {
-  display: flex;
-  flex-direction: row;
-  width: 80%;
-  padding: 7em 0;
-  margin: auto;
-}
-
-.hero-form-section-info {
-  width: 400px;
-  padding-top: 5em;
-  margin-right: 6em;
-}
-
-
 
 /* Header styling */
 
@@ -58,56 +36,26 @@ header {
 }
 
 .navbar-text {
-  padding-left: 15rem;
+  padding-left: 40%;
 }
 
 .logo {
-  padding-left: 7em;
+  padding-left: 8em;
 }
 
 
-/* Form styling */
 
-.form-optin {
-  width: 400px;
-  height: 530px;
-  background-color: #e4eef0;
-  padding: 1.5em 0 2em 0;
-  border-radius: 5px;
-  margin-left: 15%;
-}
 
-.form-title {
-  font-weight: 700;
-  font-size: 46px;
-}
 
-.form-text {
-  margin-bottom: -20px;
-}
+/* Info Icons styling */
 
-.hs-input {
-  width: 90%;
-  padding: 10px 5px;
-  color: #fff;
-  font-size: 1em;
-  font-weight: 400;
-  border: none;
-  border-bottom: 1px solid #fff;
-}
-
-.hs-button {
-  background-color: #F75C03;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  margin-top: 1em;
-  width: 90%;
-  font-size: 30px;
-  font-weight: 500;
+.info-icons-container {
+  background: #232426;
 }
 
 
+
+/* Footer styling */
 
 .footer {
   padding: 2em 0;
