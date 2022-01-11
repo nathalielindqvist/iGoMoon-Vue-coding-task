@@ -36,14 +36,12 @@ header {
 }
 
 .navbar-text {
-  padding-left: 40%;
+  padding-left: 50%;
 }
 
-.logo {
-  padding-left: 8em;
+.navbar>.container-fluid {
+  justify-content: space-around;
 }
-
-
 
 
 
@@ -62,3 +60,13 @@ header {
   background: #404040;
   color: #fff;
 }
+
+@media only screen and (max-width: 500px) {
+  .navbar>.container-fluid {
+  flex-wrap: nowrap;
+}
+.navbar-text {
+  padding-left: 4em;
+}
+}
+
