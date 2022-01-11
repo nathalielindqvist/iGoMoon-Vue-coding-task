@@ -1,0 +1,10 @@
+<div class="grid-container">
+  {% for icon in module.icons %}
+  <div class="info-content">
+    <img class="info-icon" src="{{ icon.image.src }}" alt="{{ icon.image.alt }}" height="70" />
+    <div class="info-icon-text">
+      <div>{{ icon.text }}</div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

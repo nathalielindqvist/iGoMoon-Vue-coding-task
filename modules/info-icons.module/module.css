@@ -1,0 +1,53 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  padding: 3em 5em 4em 5em;
+  width: 80%;
+  margin: auto;
+}
+
+.info-icon {
+  border: 2px solid #1f69ff;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+.info-icon-text {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1250px) {
+  .info-icon {
+  margin-bottom: 10px;
+  width: 30%;
+}
+}
+@media only screen and (max-width: 900px) {
+  .info-icon {
+  margin-bottom: 10px;
+  width: 40%;
+}
+}
+@media only screen and (max-width: 600px) {
+  .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  padding: 2em;
+  width: 100%;
+  margin: auto;
+}
+  .info-icon {
+  margin-bottom: 10px;
+  width: 50%;
+}
+.info-icon-text {
+  font-weight: 400;
+  font-size: 12px;
+}
+}

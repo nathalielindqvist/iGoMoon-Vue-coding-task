@@ -1,0 +1,51 @@
+[
+  {
+    "id": "icons",
+    "name": "icons",
+    "label": "Info icons",
+    "required": false,
+    "locked": false,
+    "help_text": "Choose which icons to represent the steps in the process",
+    "occurrence": {
+      "min": null,
+      "max": null,
+      "sorting_label_field": "icons.icon",
+      "default": 3
+    },
+    "children": [
+      {
+        "id": "icons.image",
+        "name": "image",
+        "label": "Icon",
+        "required": false,
+        "locked": false,
+        "help_text": "Choose which image to represent the step.",
+        "validation_regex": "",
+        "allow_new_line": false,
+        "show_emoji_picker": false,
+        "type": "image",
+        "responsive": "true",
+        "default": {
+          "size_type": "auto",
+          "src": "https://f.hubspotusercontent-eu1.net/hubfs/25300201/paper-icon.jpg",
+          "alt": "Default image",
+          "loading": "disabled"
+        }
+      },
+      {
+        "id": "icons.text",
+        "name": "text",
+        "label": "Name",
+        "help_text": "Describe the step",
+        "required": false,
+        "locked": false,
+        "help_text": "Display a description of the step.",
+        "allow_new_line": false,
+        "show_emoji_picker": false,
+        "type": "text",
+        "default": "Step in process"
+      }
+    ],
+    "type": "group"
+  }
+]
