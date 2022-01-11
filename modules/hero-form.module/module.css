@@ -1,3 +1,25 @@
+/* Hero section  */
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.hero-form-section-content {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  padding: 7em 0;
+  margin: auto;
+}
+
+.hero-form-section-info {
+  width: 400px;
+  padding-top: 5em;
+  margin-right: 6em;
+}
+
+
 .hero-title-white {
   color: #fff;
   text-transform: uppercase;
@@ -17,4 +39,83 @@
 
 ul {
   list-style-image: url('https://f.hubspotusercontent-eu1.net/hubfs/25300201/check-li-image-1.png');
+}
+
+
+/* Form styling */
+
+.form-optin {
+  width: 400px;
+  height: 530px;
+  background-color: #e4eef0;
+  padding: 1.5em 0 2em 0;
+  border-radius: 5px;
+  margin-left: 15%;
+}
+
+.form-title {
+  font-weight: 700;
+  font-size: 46px;
+}
+
+.form-text {
+  margin-bottom: -20px;
+}
+
+.hs-input {
+  width: 90%;
+  padding: 10px 5px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+.hs-button {
+  background-color: #F75C03;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 1em;
+  width: 90%;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1000px) {
+.form-optin {
+  width: 500px;
+  margin-left: 0;
+}
+.hero-form-section-info {
+  margin-right: 2em;
+}
+}
+
+@media only screen and (max-width: 700px) {
+  .hero-form-container, .overlay {
+    padding-bottom: 3em;
+  }
+  .form-optin {
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 3em;
+}
+.hero-form-section-content {
+  display: block;
+  width: 70%;
+  margin: auto;
+  padding: 0;
+}
+.hero-form-section-info {
+    width: 100%;
+    padding-top: 3em;
+    margin-right: 0;
+    margin-bottom: 4em;
+}
+.hs-button {
+  font-size: 24px;
+  padding: 2px;
+}
 }
