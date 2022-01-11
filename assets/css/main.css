@@ -10,12 +10,6 @@
 
 /* Hero section  */
 
-.hero-form-container {
-  background-image: url("https://f.hubspotusercontent-eu1.net/hubfs/25300201/house-background-hero-section.jpg");
-  width: 100%;
-
-}
-
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
@@ -25,13 +19,14 @@
   display: flex;
   flex-direction: row;
   width: 80%;
-  padding: 5em 6em;
+  padding: 7em 0;
   margin: auto;
 }
 
 .hero-form-section-info {
   width: 400px;
   padding-top: 5em;
+  margin-right: 6em;
 }
 
 
@@ -56,6 +51,10 @@ header {
 
 .phone-blue {
   color: #1f69ff;
+}
+
+#hs_cos_wrapper_phone_number, #hs_cos_wrapper_call_us  {
+  display: inline-block;
 }
 
 .navbar-text {

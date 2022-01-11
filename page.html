@@ -2,8 +2,23 @@
 {% block body %}
 
 <div class="site-container">
-    <h1>Developer coding task</h1>
     <main id="main-content">
+
+
+        {% module "hero-form",
+        path="./modules/hero-form",
+        label="Hero form"
+        %}
+
+
+        <div class="info-text-container">
+            {% module "info-text",
+            path="./modules/info-text",
+            label="Info Text"
+            %}
+        </div>
+
+        <h1>Developer coding task</h1>
         <div class="drag-drop">
             {% dnd_area "dnd_area", label="Dnd Area" %}
             {% dnd_section padding={
@@ -34,32 +49,6 @@
 
             {% end_dnd_section %}
             {% end_dnd_area %}
-        </div>
-
-        <div class="hero-form-container">
-            <div class="overlay">
-                <div class="hero-form-section-content">
-                    <div class="hero-form-section-info">
-                        {% module "hero-form",
-                        path="./modules/hero-form",
-                        label="Hero form"
-                        %}
-                    </div>
-                    <div class="form-optin">
-                        {% module "module_form_optin_20201119",
-                        path="./modules/form-optin",
-                        label="Form Optin"
-                        %}
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="info-text-container">
-            {% module "info-text",
-            path="./modules/info-text",
-            label="Info Text"
-            %}
         </div>
     </main>
 </div>

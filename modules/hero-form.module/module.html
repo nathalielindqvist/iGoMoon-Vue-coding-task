@@ -1,17 +1,43 @@
-{% raw %}
-<div id="hero-form">
-  <div class="hero-title">
-    <h1 class="hero-title-white">Sell your house fast and for the
-      <span id="hero-title-orange">right price</span>
-    </h1>
-  </div>
-  <div id="hero-text">
-    <h3>Get a Cash offer fast</h3>
-    <ul>
-      <li>Any Condition</li>
-      <li>Any Situation</li>
-      <li>Completion Date To Suit You</li>
-    </ul>
+<div class="hero-form-container" {% if module.bg_image %}style="background-image: url({{ module.bg_image }});" {% endif
+  %}>
+  <div class="overlay">
+    <div class="hero-form-section-content">
+      <div class="hero-form-section-info">
+        <div id="hero-form">
+          <div class="hero-title">
+            <h1 class="hero-title-white">{{ module.title_white }}
+              <span id="hero-title-orange">{{ module.title_orange }}</span>
+            </h1>
+          </div>
+          <div id="hero-text">
+            <h3>{{ module.subheading }}</h3>
+            <ul>
+              {% for listitem in module.listitems %}
+              <li>
+                {{ listitem.item }}
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="form-optin">
+        <section class="module-outer">
+          <div class="module-inner text-center">
+            <div class="form-container">
+
+              <div>
+                <h2 class="form-title">APPLY NOW</h2>
+                {% if module.heading %}
+                <p class="form-text">{{ module.heading }}</p>
+                {% endif %}
+              </div>
+              {% form "optin_form" form_to_use='{{ module.form.form_id }}'
+              %}
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
   </div>
 </div>
-{% endraw %}

@@ -1,11 +1,102 @@
 [
   {
-    "default": "<h1>Hello, world!</h1>",
-    "label": "Rich text field",
+    "default": "Sell your house fast and for the",
+    "label": "Hero title white part",
     "locked": false,
-    "name": "text",
+    "name": "title_white",
     "required": false,
-    "type": "richtext",
+    "type": "text",
     "validation_regex": ""
+  },
+  {
+    "default": "right price",
+    "label": "Hero title orange part",
+    "locked": false,
+    "name": "title_orange",
+    "required": false,
+    "type": "text",
+    "validation_regex": ""
+  },
+  {
+    "default": "Get a Cash offer fast",
+    "label": "Subheading",
+    "locked": false,
+    "name": "subheading",
+    "required": false,
+    "type": "text",
+    "validation_regex": ""
+  },
+  {
+    "id": "listitems",
+    "name": "listitems",
+    "label": "List items",
+    "required": false,
+    "locked": false,
+    "help_text": "Display the advantages of working with us.",
+    "occurrence": {
+      "min": null,
+      "max": null,
+      "sorting_label_field": "listitems.listitem",
+      "default": 3
+    },
+    "children": [
+      {
+        "id": "listitems.item",
+        "name": "item",
+        "label": "Listitem",
+        "required": false,
+        "locked": false,
+        "validation_regex": "",
+        "allow_new_line": false,
+        "show_emoji_picker": false,
+        "type": "text",
+        "default": "Advantage example"
+      }
+    ],
+    "type": "group"
+  },
+  {
+    "name": "heading",
+    "label": "Heading",
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "We'll Call You Back",
+    "help_text": "Choose a describing and strong heading."
+  },
+  {
+    "name": "form",
+    "label": "Form",
+    "required": false,
+    "locked": false,
+    "type": "form",
+    "default": {
+      "form_id": "80075ef1-33d2-4664-a150-fd7c1ac782b3",
+      "response_type": "inline",
+      "message": "Thank you for signing up to our newsletter.",
+      "gotowebinar_webinar_key": null,
+      "form_type": "HUBSPOT"
+    }
+  },
+  {
+    "name": "bg_image",
+    "label": "Background image",
+    "required": false,
+    "locked": false,
+    "help_text": "Choose the background image",
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "image",
+    "responsive": "true",
+    "default": {
+      "size_type": "auto",
+      "src": "https://f.hubspotusercontent-eu1.net/hubfs/25300201/house-background-hero-section.jpg",
+      "alt": "Default image",
+      "loading": "disabled"
+    }
   }
 ]
