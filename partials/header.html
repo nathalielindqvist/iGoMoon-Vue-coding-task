@@ -15,10 +15,16 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <div class="navbar-text">
                     <span class="phone-white">
-                        Call us:
+                        {% module "call_us" path="@hubspot/text",
+                        label='Promt for action',
+                        value='Call Us:'
+                        %}
                     </span>
                     <span class="phone-blue">
-                        xxx xxxxxxx
+                        {% module "phone_number" path="@hubspot/text",
+                        label='Enter phone number',
+                        value='xxx xxxxxxx'
+                        %}
                     </span>
                 </div>
             </div>
