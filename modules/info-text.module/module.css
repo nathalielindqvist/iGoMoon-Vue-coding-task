@@ -1,12 +1,12 @@
 #info-text {
-  width: 70%;
+  width: 80%;
   margin: auto;
   text-align: center;
-  padding: 3em 0 4em 0;
+  padding: 2em 0 3em 0;
 }
 
 .info-text-title {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -14,11 +14,18 @@
 .info-text-main {
   width: 80%;
   margin: auto;
+  line-height: 1.7;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 700px) {
   #info-text {
   width: 100%;
-  padding: 3em 1em;
+  padding: 2em 1em;
+}
+.info-text-main {
+  width: 100%;
+  line-height: 1.5;
+  font-size: 16px;
 }
 }

@@ -1,11 +1,33 @@
 [
   {
-    "default": "<h1>Hello, world!</h1>",
-    "label": "Rich text field",
+    "name": "title",
+    "label": "Title",
+    "required": false,
     "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "richtext",
+    "default": "We are interested in buying your house",
+    "help_text": "Choose a describing and strong heading.",
+    "enabled_features": [
+      "bold",
+      "italic",
+      "underline"
+    ]
+  },
+  {
     "name": "text",
+    "default": "Do you own an unwanted house? We are in the business of assisting people who want or need to sell their house fast whether you are behind on payments, facing foreclosure, bankruptcy, needing repair, divorce or setting an estate sale. We provide fair and amicable solutions as quickly as needed. We will buy your house in any condition for a fair price and allow you to move on the date of your choice.",
+    "label": "Main info text",
+    "locked": false,
     "required": false,
     "type": "richtext",
-    "validation_regex": ""
+    "validation_regex": "",
+    "enabled_features": [
+      "bold",
+      "italic",
+      "underline"
+    ]
   }
 ]

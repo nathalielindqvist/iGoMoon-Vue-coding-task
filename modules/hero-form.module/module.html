@@ -4,11 +4,7 @@
     <div class="hero-form-section-content">
       <div class="hero-form-section-info">
         <div id="hero-form">
-          <div class="hero-title">
-            <h1 class="hero-title-white">{{ module.title_white }}
-              <span id="hero-title-orange">{{ module.title_orange }}</span>
-            </h1>
-          </div>
+          <h1 class="hero-title">{{ module.hero_title }}</h1>
           <div id="hero-text">
             <h3>{{ module.subheading }}</h3>
             <ul>
@@ -21,17 +17,15 @@
           </div>
         </div>
       </div>
+
       <div class="form-optin">
         <section class="module-outer">
           <div class="module-inner text-center">
             <div class="form-container">
-
-              <div>
-                <h2 class="form-title">APPLY NOW</h2>
-                {% if module.heading %}
-                <p class="form-text">{{ module.heading }}</p>
-                {% endif %}
-              </div>
+              <h2 class="form-title">{{ module.heading }}</h2>
+              {% if module.heading %}
+              <p class="form-text">{{ module.sub_heading }}</p>
+              {% endif %}
               {% form "optin_form" form_to_use='{{ module.form.form_id }}'
               %}
             </div>

@@ -1,30 +1,29 @@
 [
   {
-    "default": "Sell your house fast and for the",
-    "label": "Hero title white part",
+    "default": "Sell your house fast and for the right price",
+    "label": "Hero title text",
     "locked": false,
-    "name": "title_white",
+    "name": "hero_title",
     "required": false,
-    "type": "text",
-    "validation_regex": ""
-  },
-  {
-    "default": "right price",
-    "label": "Hero title orange part",
-    "locked": false,
-    "name": "title_orange",
-    "required": false,
-    "type": "text",
-    "validation_regex": ""
+    "type": "richtext",
+    "validation_regex": "",
+    "enabled_features": [
+      "text_color"
+    ]
   },
   {
     "default": "Get a Cash offer fast",
-    "label": "Subheading",
+    "label": "Sub Heading Hero text",
     "locked": false,
     "name": "subheading",
     "required": false,
-    "type": "text",
-    "validation_regex": ""
+    "type": "richtext",
+    "validation_regex": "",
+    "enabled_features": [
+      "bold",
+      "italic",
+      "underline"
+    ]
   },
   {
     "id": "listitems",
@@ -57,15 +56,37 @@
   },
   {
     "name": "heading",
-    "label": "Heading",
+    "label": "Heading on form",
     "required": false,
     "locked": false,
     "validation_regex": "",
     "allow_new_line": false,
     "show_emoji_picker": false,
-    "type": "text",
+    "type": "richtext",
+    "default": "APPLY NOW",
+    "help_text": "Choose a describing and strong heading.",
+    "enabled_features": [
+      "bold",
+      "italic",
+      "underline"
+    ]
+  },
+  {
+    "name": "sub_heading",
+    "label": "Sub Heading on form",
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "richtext",
     "default": "We'll Call You Back",
-    "help_text": "Choose a describing and strong heading."
+    "help_text": "Choose a describing and strong heading.",
+    "enabled_features": [
+      "bold",
+      "italic",
+      "underline"
+    ]
   },
   {
     "name": "form",
