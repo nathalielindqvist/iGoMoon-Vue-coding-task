@@ -7,52 +7,10 @@
   font-family: 'Readex Pro', sans-serif;
 }
 
-
-
-/* Header styling */
-
-header {
-  background: #232426;
+.navbar>.container-fluid {
+  justify-content: flex-start;
 }
 
 .navbar {
   padding: 10px 0 0 0;
 }
-
-.navbar-expand-lg .navbar-collapse {
-  justify-content: space-around;
-}
-
-.phone-white {
-  color: #fff;
-}
-
-.phone-blue {
-  color: #1f69ff;
-}
-
-#hs_cos_wrapper_phone_number, #hs_cos_wrapper_call_us  {
-  display: inline-block;
-}
-
-.navbar-text {
-  padding-left: 50%;
-}
-
-.navbar>.container-fluid {
-  justify-content: space-around;
-}
-
-
-
-/* Media queries */
-
-@media only screen and (max-width: 500px) {
-  .navbar>.container-fluid {
-  flex-wrap: nowrap;
-}
-.navbar-text {
-  padding-left: 4em;
-}
-}
-
