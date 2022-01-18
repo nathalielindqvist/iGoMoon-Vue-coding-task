@@ -1,3 +1,4 @@
-<div id="info-text-container">
+<div id="info-text-container" {% if module.bg_color %}style="background-color: {{ module.bg_color.color }};" {% endif
+  %}>
   <info-text title="{{module.title}}" text="{{module.text}}"></info-text>
 </div>

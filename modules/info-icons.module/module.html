@@ -1,10 +1,14 @@
-<div class="grid-container">
-  {% for icon in module.icons %}
-  <div class="info-content">
-    <img class="info-icon" src="{{ icon.image.src }}" alt="{{ icon.image.alt }}" height="70" />
-    <div class="info-icon-text">
-      <div>{{ icon.text }}</div>
+<div class="info-icons-container" {% if module.bg_color %}style="background-color: {{ module.bg_color.color }};" {%
+  endif %}>
+  <div class="grid-container">
+    {% for icon in module.icons %}
+    <div class="info-content">
+      <img class="info-icon" src="{{ icon.image.src }}" alt="{{ icon.image.alt }}" height="70" {% if module.border_color
+        %}style="border-color: {{ module.border_color.color }};" {% endif %} />
+      <div class="info-icon-text">
+        <div>{{ icon.text }}</div>
+      </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>

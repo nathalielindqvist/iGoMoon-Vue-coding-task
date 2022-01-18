@@ -1,0 +1,18 @@
+<header {% if module.bg_color %}style="background-color: {{ module.bg_color.color }};" {% endif %}>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <div class="logo">
+        <img src="{{ module.logo.src }}" alt="{{ module.logo.alt }}" height="100" />
+      </div>
+      <div class="navbar-text">
+        <span class="phone-white">
+          {{ module.action }}
+        </span>
+        <span class="phone-blue">
+          {{ module.phone_number }}
+        </span>
+      </div>
+    </div>
+    </div>
+  </nav>
+</header>

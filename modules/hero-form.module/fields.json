@@ -13,7 +13,7 @@
   },
   {
     "default": "Get a Cash offer fast",
-    "label": "Sub Heading Hero text",
+    "label": "Hero sub title text",
     "locked": false,
     "name": "subheading",
     "required": false,
@@ -22,13 +22,14 @@
     "enabled_features": [
       "bold",
       "italic",
-      "underline"
+      "underline",
+      "text_color"
     ]
   },
   {
     "id": "listitems",
     "name": "listitems",
-    "label": "List items",
+    "label": "Changing text displaying advantages",
     "required": false,
     "locked": false,
     "help_text": "Display the advantages of working with us.",

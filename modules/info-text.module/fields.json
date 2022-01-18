@@ -29,5 +29,16 @@
       "italic",
       "underline"
     ]
+  },
+  {
+    "name": "bg_color",
+    "label": "Background color information text",
+    "required": false,
+    "locked": false,
+    "type": "color",
+    "default": {
+      "color": "#fff",
+      "opacity": 100
+    }
   }
 ]

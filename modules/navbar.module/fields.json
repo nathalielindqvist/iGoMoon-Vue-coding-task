@@ -1,0 +1,55 @@
+[
+  {
+    "name": "logo",
+    "label": "Logo",
+    "required": false,
+    "locked": false,
+    "type": "logo",
+    "default": {
+      "override_inherited_src": false,
+      "src": null,
+      "alt": null
+    }
+  },
+  {
+    "name": "action",
+    "default": "Call Us:",
+    "label": "Call for action",
+    "locked": false,
+    "required": false,
+    "type": "richtext",
+    "validation_regex": "",
+    "enabled_features": [
+      "bold",
+      "italic",
+      "underline",
+      "text_color"
+    ]
+  },
+  {
+    "name": "phone_number",
+    "default": "xxx xxxxxxx",
+    "label": "Phone number",
+    "locked": false,
+    "required": false,
+    "type": "richtext",
+    "validation_regex": "",
+    "enabled_features": [
+      "bold",
+      "italic",
+      "underline",
+      "text_color"
+    ]
+  },
+  {
+    "name": "bg_color",
+    "label": "Background color header",
+    "required": false,
+    "locked": false,
+    "type": "color",
+    "default": {
+      "color": "#232426",
+      "opacity": 100
+    }
+  }
+]

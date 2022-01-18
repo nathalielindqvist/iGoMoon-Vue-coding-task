@@ -45,21 +45,7 @@ header {
 
 
 
-/* Info Icons styling */
-
-.info-icons-container {
-  background: #232426;
-}
-
-
-
-/* Footer styling */
-
-.footer {
-  padding: 2em 0;
-  background: #404040;
-  color: #fff;
-}
+/* Media queries */
 
 @media only screen and (max-width: 500px) {
   .navbar>.container-fluid {

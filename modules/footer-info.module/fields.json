@@ -1,0 +1,28 @@
+[
+  {
+    "default": "© Copyright 2019 - Designlandpage.",
+    "label": "Text in footer",
+    "locked": false,
+    "name": "footer_info",
+    "required": false,
+    "type": "richtext",
+    "validation_regex": "",
+    "enabled_features": [
+      "bold",
+      "italic",
+      "underline",
+      "text_color"
+    ]
+  },
+  {
+    "name": "bg_color",
+    "label": "Background color footer",
+    "required": false,
+    "locked": false,
+    "type": "color",
+    "default": {
+      "color": "#404040",
+      "opacity": 100
+    }
+  }
+]
