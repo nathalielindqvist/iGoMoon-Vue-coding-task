@@ -1,0 +1,14 @@
+{
+  "name": "vue-coding-task",
+  "version": "1.0.0",
+  "description": "Coding task where the goal was to explore how Vue can work together with HubSpot/Hubl.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typed.js": "^2.0.12"
+  }
+}
