@@ -7,10 +7,26 @@
   font-family: 'Readex Pro', sans-serif;
 }
 
+
+/* Navbar styling */
 .navbar>.container-fluid {
   justify-content: flex-start;
 }
 
 .navbar {
   padding: 10px 0 0 0;
+}
+
+
+/* Media queries */
+
+@media only screen and (max-width: 650px) {
+  .navbar>.container-fluid {
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar-text {
+  padding-left: 4em;
+}
 }

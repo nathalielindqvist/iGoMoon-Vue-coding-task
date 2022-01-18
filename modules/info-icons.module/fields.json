@@ -39,7 +39,6 @@
         "help_text": "Describe the step",
         "required": false,
         "locked": false,
-        "help_text": "Display a description of the step.",
         "allow_new_line": false,
         "show_emoji_picker": false,
         "type": "text",

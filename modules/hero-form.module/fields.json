@@ -69,7 +69,8 @@
     "enabled_features": [
       "bold",
       "italic",
-      "underline"
+      "underline",
+      "text_color"
     ]
   },
   {
@@ -86,7 +87,8 @@
     "enabled_features": [
       "bold",
       "italic",
-      "underline"
+      "underline",
+      "text_color"
     ]
   },
   {

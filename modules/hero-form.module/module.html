@@ -1,4 +1,5 @@
-<div class="hero-form-container" {% if module.bg_image %}style="background-image: url({{ module.bg_image.src }});" {%
+<div class="hero-form-container" {% if module.bg_image
+  %}style="background-image: url({{ module.bg_image.src }}); background-repeat: no-repeat; background-size: cover;" {%
   endif %}>
   <div class="overlay">
     <div class="hero-form-section-content">
@@ -8,7 +9,7 @@
           <div id="hero-text">
             <h3>{{ module.subheading }}</h3>
             <ul>
-              <li class="element"></li>
+              <li class="list-elements"></li>
             </ul>
             <ul id="list">
               {% for listitem in module.listitems %}
@@ -38,7 +39,7 @@
 </div>
 
 <script type="module">
-  var typed = new Typed('.element', {
+  var typed = new Typed('.list-elements', {
     stringsElement: '#list',
     typeSpeed: 50,
     backSpeed: 50,
