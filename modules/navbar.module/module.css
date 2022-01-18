@@ -1,17 +1,9 @@
-.phone-white {
-  color: #fff;
-}
-
-.phone-blue {
-  color: #1f69ff;
-}
-
 #hs_cos_wrapper_phone_number, #hs_cos_wrapper_call_us  {
   display: inline-block;
 }
 
 .logo {
-  margin-right: 57%;
+  margin-right: 55%;
   margin-left: 9%;
 
 }

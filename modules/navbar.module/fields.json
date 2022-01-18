@@ -13,23 +13,8 @@
   },
   {
     "name": "action",
-    "default": "Call Us:",
-    "label": "Call for action",
-    "locked": false,
-    "required": false,
-    "type": "richtext",
-    "validation_regex": "",
-    "enabled_features": [
-      "bold",
-      "italic",
-      "underline",
-      "text_color"
-    ]
-  },
-  {
-    "name": "phone_number",
-    "default": "xxx xxxxxxx",
-    "label": "Phone number",
+    "default": "Call Us: xxx xxxxxxx",
+    "label": "Add phone number",
     "locked": false,
     "required": false,
     "type": "richtext",
