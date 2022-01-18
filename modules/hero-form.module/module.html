@@ -8,10 +8,11 @@
           <div id="hero-text">
             <h3>{{ module.subheading }}</h3>
             <ul>
+              <li class="element"></li>
+            </ul>
+            <ul id="list">
               {% for listitem in module.listitems %}
-              <li>
-                {{ listitem.item }}
-              </li>
+              <li>{{ listitem.item }}</li>
               {% endfor %}
             </ul>
           </div>
@@ -35,3 +36,15 @@
     </div>
   </div>
 </div>
+
+<script type="module">
+  var typed = new Typed('.element', {
+    stringsElement: '#list',
+    typeSpeed: 50,
+    backSpeed: 50,
+    backDelay: 1000,
+    startDelay: 1000,
+    loop: true,
+    showCursor: false
+  });
+</script>
